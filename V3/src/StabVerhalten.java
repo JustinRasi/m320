@@ -1,7 +1,10 @@
 public class StabVerhalten implements IWaffenVerhalten {
 
-        @Override
-        public void verwendeWaffe() {
+    /**
+     * declaring function verwendeWaffe
+     */
+    @Override
+    public void verwendeWaffe() {
             System.out.println("Stab");
         }
 }
