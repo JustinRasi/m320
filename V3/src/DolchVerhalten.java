@@ -1,5 +1,8 @@
 public class DolchVerhalten implements IWaffenVerhalten {
-        @Override
+    /**
+     * Use Weapon Dolch
+     */
+    @Override
         public void verwendeWaffe() {
             System.out.println("Dolch");
         }
